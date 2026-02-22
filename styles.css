@@ -244,28 +244,28 @@ h1 {
 
 .timetable-wrap {
   overflow-x: auto;
-  border: 1px solid var(--line);
+  border: 1px solid #e9dfcf;
   border-radius: 14px;
-  background: #fffdfb;
+  background: #fffdfa;
 }
 
 .timetable-table {
   width: 100%;
-  min-width: 1260px;
+  min-width: 1120px;
   border-collapse: separate;
   border-spacing: 0;
   table-layout: fixed;
 }
 
 .timetable-table thead th {
-  background: linear-gradient(120deg, #fff2a6, #ffddea);
-  color: #3e3b38;
-  font-size: 0.82rem;
+  background: #ffefb8;
+  color: #393532;
+  font-size: 0.92rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
-  padding: 0.8rem 0.55rem;
+  padding: 0.85rem 0.5rem;
   text-align: center;
-  border-bottom: 1px solid #ecdcc7;
+  border-bottom: 1px solid #e5d6bf;
+  white-space: nowrap;
 }
 
 .timetable-table thead th:first-child {
@@ -277,64 +277,65 @@ h1 {
 }
 
 .timetable-table tbody th {
-  background: #fff7e8;
-  color: #5f554e;
-  font-size: 0.82rem;
+  background: #fff3d6;
+  color: #4f4740;
+  font-size: 0.88rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
   text-align: center;
-  padding: 0.7rem 0.5rem;
+  padding: 0.78rem 0.5rem;
   border-right: 1px solid var(--line);
+  width: 84px;
 }
 
 .timetable-table td {
-  background: #fffefb;
+  background: #fff;
   border-left: 1px solid var(--line);
   border-top: 1px solid var(--line);
-  padding: 0.24rem;
+  padding: 0.28rem;
   vertical-align: top;
 }
 
 .timetable-table tbody tr:nth-child(even) td {
-  background: #fffafd;
+  background: #fffcff;
 }
 
 .slot-button {
   display: block;
   width: 100%;
-  min-height: 72px;
-  border: 1px solid transparent;
+  min-height: 78px;
+  border: 1px solid #f3ede3;
   border-radius: 10px;
-  background: transparent;
+  background: #fffefb;
   text-align: left;
-  padding: 0.45rem 0.45rem 0.4rem;
+  padding: 0.5rem 0.5rem 0.44rem;
   cursor: pointer;
 }
 
 .slot-button:hover,
 .slot-button:focus-visible {
-  border-color: #f0d7d5;
+  border-color: #e7cfd5;
+  background: #fff8fb;
   outline: none;
 }
 
 .slot-button.is-selected {
-  border-color: #eab2c9;
-  background: #fff4fa;
+  border-color: #e4acc2;
+  background: #fff1f7;
 }
 
 .slot-button .slot-title {
   display: block;
-  color: #3a2f2f;
+  color: #342f2c;
   font-weight: 600;
-  font-size: 0.86rem;
-  line-height: 1.3;
+  font-size: 0.9rem;
+  line-height: 1.28;
 }
 
 .slot-button .slot-meta {
   display: block;
-  margin-top: 0.18rem;
+  margin-top: 0.22rem;
   color: #7a6f67;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   line-height: 1.3;
 }
 
@@ -487,6 +488,6 @@ footer {
   }
 
   .timetable-table {
-    min-width: 980px;
+    min-width: 940px;
   }
 }

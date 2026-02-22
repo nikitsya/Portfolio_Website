@@ -1,15 +1,15 @@
 const STORAGE_KEY = "nika_timetable_v1";
 const days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const slotNames = [
-  "09:00-10:00",
-  "10:00-11:00",
-  "11:00-12:00",
-  "12:00-13:00",
-  "13:00-14:00",
-  "14:00-15:00",
-  "15:00-16:00",
-  "16:00-17:00",
-  "17:00-18:00"
+  "9 a.m.",
+  "10 a.m.",
+  "11 a.m.",
+  "12 p.m.",
+  "1 p.m.",
+  "2 p.m.",
+  "3 p.m.",
+  "4 p.m.",
+  "5 p.m."
 ];
 
 const defaultSchedule = {
@@ -32,7 +32,6 @@ const defaultSchedule = {
     { title: "", meta: "Project prep" },
     { title: "UX Design", meta: "P1139 · D Flood" },
     { title: "UX Design", meta: "P1139 · D Flood" },
-    { title: "", meta: "Project prep" },
     { title: "Applied SW Project", meta: "P1139 · R Lynch" },
     { title: "Applied SW Project", meta: "P1139 · R Lynch" }
   ],
@@ -45,7 +44,6 @@ const defaultSchedule = {
     { title: "", meta: "Break" },
     { title: "Server-Side Development", meta: "P1106 · S Gates" },
     { title: "Server-Side Development", meta: "P1106 · S Gates" },
-    { title: "", meta: "Portfolio edits" },
     { title: "", meta: "Portfolio edits" }
   ],
   Thu: [
@@ -54,14 +52,12 @@ const defaultSchedule = {
     { title: "Server-Side Development", meta: "P1106 · S Gates" },
     { title: "Server-Side Development", meta: "P1106 · S Gates" },
     { title: "", meta: "Break / admin" },
-    { title: "", meta: "Break / admin" },
     { title: "OO Programming", meta: "P1159 · D Logue" },
     { title: "OO Programming", meta: "P1159 · D Logue" },
     { title: "", meta: "Creative lab" },
     { title: "", meta: "Creative lab" }
   ],
   Fri: [
-    { title: "", meta: "No class" },
     { title: "", meta: "No class" },
     { title: "Team check-in", meta: "Studio room · 11:00" },
     { title: "Team check-in", meta: "Studio room · 11:00" },
