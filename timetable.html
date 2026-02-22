@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nika Portfolio - Timetable</title>
+    <meta name="description" content="Editable timetable page for portfolio workflow." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="timetable-page">
+    <header class="site-header">
+      <a class="logo" href="index.html#home">Nika Portfolio</a>
+      <nav class="site-nav">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="timetable.html">Timetable</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="timetable-section">
+        <div class="section-head">
+          <h1>Timetable</h1>
+          <p>Click a slot, edit, and save.</p>
+        </div>
+
+        <div class="timetable-editor">
+          <div class="editor-header">
+            <p class="editor-kicker">Selected slot</p>
+            <p id="selected-slot">Pick any cell in the timetable.</p>
+          </div>
+          <form id="slot-form" class="editor-form">
+            <label>
+              Class / task
+              <input id="slot-title-input" name="title" type="text" placeholder="Example: UX Design" />
+            </label>
+            <label>
+              Meta (room, teacher, note)
+              <input id="slot-meta-input" name="meta" type="text" placeholder="Example: P1139 · D Flood" />
+            </label>
+            <div class="editor-actions">
+              <button type="submit" class="editor-btn editor-btn-primary">Save slot</button>
+              <button type="button" id="clear-slot-btn" class="editor-btn">Clear slot</button>
+              <button type="button" id="reset-table-btn" class="editor-btn">Reset all</button>
+            </div>
+          </form>
+          <p class="editor-note">Saved locally in this browser.</p>
+        </div>
+
+        <div class="timetable-wrap">
+          <table class="timetable-table">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>09:00-10:30</th>
+                <th>10:45-12:15</th>
+                <th>12:30-14:00</th>
+                <th>14:15-15:45</th>
+                <th>16:00-17:30</th>
+              </tr>
+            </thead>
+            <tbody id="timetable-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Nika Portfolio</p>
+    </footer>
+
+    <script src="timetable.js"></script>
+  </body>
+</html>

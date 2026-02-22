@@ -30,6 +30,12 @@ body {
   line-height: 1.6;
 }
 
+.timetable-page .site-header,
+.timetable-page main,
+.timetable-page footer {
+  width: min(1180px, calc(100% - 2rem));
+}
+
 .site-header,
 main,
 footer {
@@ -149,6 +155,93 @@ h1 {
   background: linear-gradient(145deg, #fffef7, #fff7fb);
 }
 
+.timetable-editor {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 0.9rem;
+  background: #fffdf9;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.editor-kicker {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#selected-slot {
+  margin: 0;
+  font-weight: 600;
+  color: #5d5049;
+}
+
+.editor-form {
+  margin-top: 0.7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.editor-form label {
+  display: grid;
+  gap: 0.35rem;
+  color: #574b45;
+  font-size: 0.84rem;
+  font-weight: 500;
+}
+
+.editor-form input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.58rem 0.66rem;
+  font: inherit;
+  background: #fffefe;
+}
+
+.editor-form input:focus-visible {
+  outline: 2px solid #f8c7d9;
+  outline-offset: 1px;
+}
+
+.editor-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.editor-btn {
+  border: 1px solid var(--line);
+  background: #fffefb;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 0.48rem 0.8rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.editor-btn-primary {
+  background: linear-gradient(120deg, var(--yellow), var(--pink));
+  border-color: #f0dcc4;
+  font-weight: 600;
+}
+
+.editor-note {
+  margin: 0.7rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
 .timetable-wrap {
   overflow-x: auto;
   border: 1px solid var(--line);
@@ -198,7 +291,7 @@ h1 {
   background: #fffefb;
   border-left: 1px solid var(--line);
   border-top: 1px solid var(--line);
-  padding: 0.62rem 0.58rem;
+  padding: 0.24rem;
   vertical-align: top;
 }
 
@@ -206,7 +299,30 @@ h1 {
   background: #fffafd;
 }
 
-.slot-title {
+.slot-button {
+  display: block;
+  width: 100%;
+  min-height: 72px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  text-align: left;
+  padding: 0.45rem 0.45rem 0.4rem;
+  cursor: pointer;
+}
+
+.slot-button:hover,
+.slot-button:focus-visible {
+  border-color: #f0d7d5;
+  outline: none;
+}
+
+.slot-button.is-selected {
+  border-color: #eab2c9;
+  background: #fff4fa;
+}
+
+.slot-button .slot-title {
   display: block;
   color: #3a2f2f;
   font-weight: 600;
@@ -214,7 +330,7 @@ h1 {
   line-height: 1.3;
 }
 
-.slot-meta {
+.slot-button .slot-meta {
   display: block;
   margin-top: 0.18rem;
   color: #7a6f67;
@@ -222,9 +338,13 @@ h1 {
   line-height: 1.3;
 }
 
-.slot-empty {
+.slot-button.slot-empty .slot-title {
+  color: #8f7c71;
+  font-weight: 500;
+}
+
+.slot-button.slot-empty .slot-meta {
   color: #a18e84;
-  font-size: 0.82rem;
 }
 
 .projects-grid {
@@ -354,6 +474,16 @@ footer {
   .section-head {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .editor-header,
+  .editor-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .editor-form {
+    grid-template-columns: 1fr;
   }
 
   .timetable-table {
