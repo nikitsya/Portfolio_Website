@@ -251,7 +251,7 @@ h1 {
 
 .timetable-table {
   width: 100%;
-  min-width: 840px;
+  min-width: 1260px;
   border-collapse: separate;
   border-spacing: 0;
   table-layout: fixed;
@@ -487,6 +487,6 @@ footer {
   }
 
   .timetable-table {
-    min-width: 700px;
+    min-width: 980px;
   }
 }

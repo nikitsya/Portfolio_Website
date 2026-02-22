@@ -1,40 +1,75 @@
 const STORAGE_KEY = "nika_timetable_v1";
 const days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+const slotNames = [
+  "09:00-10:00",
+  "10:00-11:00",
+  "11:00-12:00",
+  "12:00-13:00",
+  "13:00-14:00",
+  "14:00-15:00",
+  "15:00-16:00",
+  "16:00-17:00",
+  "17:00-18:00"
+];
 
 const defaultSchedule = {
   Mon: [
     { title: "C++", meta: "P1139 · D Flood" },
+    { title: "C++", meta: "P1139 · D Flood" },
     { title: "C++", meta: "P1104 · D Flood" },
+    { title: "", meta: "Break / review" },
     { title: "Applied SW Project", meta: "P1139 · R Lynch" },
+    { title: "Applied SW Project", meta: "P1139 · R Lynch" },
+    { title: "Applied SW Project", meta: "P1104 · F Keenan" },
     { title: "Applied SW Project", meta: "P1104 · F Keenan" },
     { title: "", meta: "Independent work" }
   ],
   Tue: [
     { title: "Full Stack Development", meta: "P1107 · D O'Reilly" },
+    { title: "Full Stack Development", meta: "P1107 · D O'Reilly" },
+    { title: "OO Programming", meta: "P1159 · D Logue" },
     { title: "OO Programming", meta: "P1159 · D Logue" },
     { title: "", meta: "Project prep" },
     { title: "UX Design", meta: "P1139 · D Flood" },
+    { title: "UX Design", meta: "P1139 · D Flood" },
+    { title: "", meta: "Project prep" },
+    { title: "Applied SW Project", meta: "P1139 · R Lynch" },
     { title: "Applied SW Project", meta: "P1139 · R Lynch" }
   ],
   Wed: [
     { title: "", meta: "Focus block" },
     { title: "UX Design", meta: "P1160 · D Flood" },
+    { title: "UX Design", meta: "P1160 · D Flood" },
     { title: "C++", meta: "P1159 · D Flood" },
+    { title: "C++", meta: "P1159 · D Flood" },
+    { title: "", meta: "Break" },
     { title: "Server-Side Development", meta: "P1106 · S Gates" },
+    { title: "Server-Side Development", meta: "P1106 · S Gates" },
+    { title: "", meta: "Portfolio edits" },
     { title: "", meta: "Portfolio edits" }
   ],
   Thu: [
     { title: "Full Stack Development", meta: "P1160 · D O'Reilly" },
+    { title: "Full Stack Development", meta: "P1160 · D O'Reilly" },
+    { title: "Server-Side Development", meta: "P1106 · S Gates" },
     { title: "Server-Side Development", meta: "P1106 · S Gates" },
     { title: "", meta: "Break / admin" },
+    { title: "", meta: "Break / admin" },
     { title: "OO Programming", meta: "P1159 · D Logue" },
+    { title: "OO Programming", meta: "P1159 · D Logue" },
+    { title: "", meta: "Creative lab" },
     { title: "", meta: "Creative lab" }
   ],
   Fri: [
     { title: "", meta: "No class" },
+    { title: "", meta: "No class" },
+    { title: "Team check-in", meta: "Studio room · 11:00" },
     { title: "Team check-in", meta: "Studio room · 11:00" },
     { title: "", meta: "Content production" },
+    { title: "", meta: "Content production" },
     { title: "Portfolio polish", meta: "Publishing sprint" },
+    { title: "Portfolio polish", meta: "Publishing sprint" },
+    { title: "", meta: "Personal project" },
     { title: "", meta: "Personal project" }
   ]
 };
@@ -64,7 +99,7 @@ function loadSchedule() {
 
   try {
     const parsed = JSON.parse(stored);
-    return days.every((day) => Array.isArray(parsed[day]) && parsed[day].length === 5)
+    return days.every((day) => Array.isArray(parsed[day]) && parsed[day].length === slotNames.length)
       ? parsed
       : cloneDefaultSchedule();
   } catch {
@@ -77,14 +112,6 @@ function saveSchedule() {
 }
 
 function cellLabel(day, slotIndex) {
-  const slotNames = [
-    "09:00-10:30",
-    "10:45-12:15",
-    "12:30-14:00",
-    "14:15-15:45",
-    "16:00-17:30"
-  ];
-
   return `${day} · ${slotNames[slotIndex]}`;
 }
 

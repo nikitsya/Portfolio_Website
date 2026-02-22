@@ -19,6 +19,7 @@ Then open `http://localhost:8080`.
 - `timetable.html`: separate editable timetable page.
 - `script.js`: project card interaction.
 - `timetable.js`: timetable rendering and editing logic.
+- Hourly timetable slots from 09:00 to 18:00.
 
 ## Timetable editing
 
