@@ -16,7 +16,6 @@ Then open `http://localhost:8080`.
 ## Structure
 
 - Home section with short intro.
-- Timetable section with a soft styled weekly table.
 - Projects grid with card buttons.
 - Selected project details section.
 - Contact links.
@@ -24,7 +23,6 @@ Then open `http://localhost:8080`.
 ## Customize quickly
 
 1. Replace project names and types in `index.html`.
-2. Update timetable content in `index.html` (`#timetable` table).
-3. Edit project details in `script.js` (`projectData`).
-4. Change color variables in `styles.css` (`:root`).
-5. Add real links and domain email in `index.html`.
+2. Edit project details in `script.js` (`projectData`).
+3. Change color variables in `styles.css` (`:root`).
+4. Add real links and domain email in `index.html`.
