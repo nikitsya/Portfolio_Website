@@ -17,6 +17,8 @@ Then open `http://localhost:8080`.
 
 - `index.html`: home, project cards, selected project details, and contact.
 - `timetable.html`: separate editable timetable page.
+- `opticube.html`: OptiCube case study page.
+- `projects/opticube-games-website.md`: reusable OptiCube copy in Markdown.
 - `script.js`: project card interaction.
 - `timetable.js`: timetable rendering and editing logic.
 - Hourly timetable slots from 09:00 to 18:00.
