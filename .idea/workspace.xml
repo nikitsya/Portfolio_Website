@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="update About section with provided education and backend-focused profile text">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-focus/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="remove Backend Focus page and all related navigation links" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +71,7 @@
       <workItem from="1771876656678" duration="815000" />
       <workItem from="1771877475294" duration="2644000" />
       <workItem from="1771951700211" duration="2865000" />
-      <workItem from="1773694915227" duration="3645000" />
+      <workItem from="1773694915227" duration="4103000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -216,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773698461179</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="remove Backend Focus page and all related navigation links">
+      <option name="closed" value="true" />
+      <created>1773698781326</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1773698781326</updated>
+    </task>
+    <task id="LOCAL-00019" summary="remove Backend Focus page and all related navigation links">
+      <option name="closed" value="true" />
+      <created>1773698831573</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1773698831573</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +260,7 @@
     <MESSAGE value="use non-trailing-slash internal URLs and normalize displayed route paths" />
     <MESSAGE value="update About section with personal bio and backend-focused summary" />
     <MESSAGE value="update About section with provided education and backend-focused profile text" />
-    <option name="LAST_COMMIT_MESSAGE" value="update About section with provided education and backend-focused profile text" />
+    <MESSAGE value="remove Backend Focus page and all related navigation links" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove Backend Focus page and all related navigation links" />
   </component>
 </project>
