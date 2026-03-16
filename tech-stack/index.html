@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        const { pathname, search, hash } = window.location;
+        if (pathname.length > 1 && pathname.endsWith("/")) {
+          window.history.replaceState(null, "", pathname.replace(/\/+$/, "") + search + hash);
+        }
+      })();
+    </script>
     <title>Nikita Smiichyk - Tech Stack</title>
     <meta name="description" content="Tech Stack page with stack categories for Nikita Smiichyk." />
     <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
@@ -20,11 +28,11 @@
 
     <aside class="minimal-nav" aria-label="Site navigation">
       <p class="minimal-name">Nikita Smiichyk</p>
-      <a href="../">About</a>
-      <a href="../backend-focus/">Backend Focus</a>
-      <a href="../tech-stack/" aria-current="page">Tech Stack</a>
-      <a href="../projects/">Projects</a>
-      <a href="../contact/">Contact</a>
+      <a href="..">About</a>
+      <a href="../backend-focus">Backend Focus</a>
+      <a href="../tech-stack" aria-current="page">Tech Stack</a>
+      <a href="../projects">Projects</a>
+      <a href="../contact">Contact</a>
     </aside>
 
     <footer class="minimal-footer">

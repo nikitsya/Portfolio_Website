@@ -5,11 +5,11 @@ Minimal multi-page portfolio in a plain style.
 ## Pages
 
 - `/`: home (`index.html`)
-- `/about/`: about (`about/index.html`)
-- `/backend-focus/`: backend focus (`backend-focus/index.html`)
-- `/tech-stack/`: stack notes (`tech-stack/index.html`)
-- `/projects/`: projects placeholder (empty for now) (`projects/index.html`)
-- `/contact/`: contact links (`contact/index.html`)
+- `/about`: about (`about/index.html`)
+- `/backend-focus`: backend focus (`backend-focus/index.html`)
+- `/tech-stack`: stack notes (`tech-stack/index.html`)
+- `/projects`: projects placeholder (empty for now) (`projects/index.html`)
+- `/contact`: contact links (`contact/index.html`)
 
 ## Run locally
 
