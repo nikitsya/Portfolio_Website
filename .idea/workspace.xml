@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="remove Backend Focus page and all related navigation links" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="add clickable DkIT course link to About education line">
+      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +73,7 @@
       <workItem from="1771876656678" duration="815000" />
       <workItem from="1771877475294" duration="2644000" />
       <workItem from="1771951700211" duration="2865000" />
-      <workItem from="1773694915227" duration="4103000" />
+      <workItem from="1773694915227" duration="4460000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -225,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773698831573</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add clickable DkIT course link to About education line">
+      <option name="closed" value="true" />
+      <created>1773699306945</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1773699306945</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +271,7 @@
     <MESSAGE value="update About section with personal bio and backend-focused summary" />
     <MESSAGE value="update About section with provided education and backend-focused profile text" />
     <MESSAGE value="remove Backend Focus page and all related navigation links" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove Backend Focus page and all related navigation links" />
+    <MESSAGE value="add clickable DkIT course link to About education line" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clickable DkIT course link to About education line" />
   </component>
 </project>
