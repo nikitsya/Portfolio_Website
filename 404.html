@@ -23,12 +23,12 @@
     </style>
   </head>
   <body>
-    <p>Redirecting to <a id="home-link" href="/index.html">home page</a>...</p>
+    <p>Redirecting to <a id="home-link" href="/">home page</a>...</p>
     <script>
       (function () {
-        const path = window.location.pathname;
-        const localProjectRoot = "/nikitsya/";
-        const target = path.startsWith(localProjectRoot) ? `${localProjectRoot}index.html` : "/index.html";
+        const segments = window.location.pathname.split("/").filter(Boolean);
+        const isGitHubProjectSite = window.location.hostname.endsWith("github.io");
+        const target = isGitHubProjectSite && segments.length > 0 ? `/${segments[0]}/` : "/";
         const link = document.getElementById("home-link");
         if (link) {
           link.href = target;
