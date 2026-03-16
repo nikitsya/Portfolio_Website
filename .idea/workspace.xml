@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="add clickable DkIT course link to About education line">
-      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="set correct Tech Stack heading and remove duplicate title block">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,8 @@
       <workItem from="1771876656678" duration="815000" />
       <workItem from="1771877475294" duration="2644000" />
       <workItem from="1771951700211" duration="2865000" />
-      <workItem from="1773694915227" duration="4460000" />
+      <workItem from="1773694915227" duration="5101000" />
+      <workItem from="1773700658522" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773699306945</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="set correct Tech Stack heading and remove duplicate title block">
+      <option name="closed" value="true" />
+      <created>1773699629221</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1773699629221</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +281,7 @@
     <MESSAGE value="update About section with provided education and backend-focused profile text" />
     <MESSAGE value="remove Backend Focus page and all related navigation links" />
     <MESSAGE value="add clickable DkIT course link to About education line" />
-    <option name="LAST_COMMIT_MESSAGE" value="add clickable DkIT course link to About education line" />
+    <MESSAGE value="set correct Tech Stack heading and remove duplicate title block" />
+    <option name="LAST_COMMIT_MESSAGE" value="set correct Tech Stack heading and remove duplicate title block" />
   </component>
 </project>
