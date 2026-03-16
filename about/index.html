@@ -3,39 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nikita Smiichyk - About</title>
-    <meta name="description" content="About page for Nikita Smiichyk portfolio." />
+    <title>Redirecting</title>
     <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
     <link rel="apple-touch-icon" href="../favicon.svg" />
-    <link rel="stylesheet" href="../styles.css" />
-  </head>
-  <body class="minimal-home">
-    <main class="minimal-layout">
-      <section class="minimal-section" aria-label="About">
-        <h1>About</h1>
-        <p class="minimal-lead">No public information yet.</p>
-        <p>This page is intentionally empty for now.</p>
-      </section>
-    </main>
-
-    <aside class="minimal-nav" aria-label="Site navigation">
-      <p class="minimal-name">Nikita Smiichyk</p>
-      <a href="../about/" aria-current="page">About</a>
-      <a href="../backend-focus/">Backend Focus</a>
-      <a href="../tech-stack/">Tech Stack</a>
-      <a href="../projects/">Projects</a>
-      <a href="../contact/">Contact</a>
-    </aside>
-
-    <footer class="minimal-footer">
-      <p>© <span id="year"></span> Nikita Smiichyk</p>
-    </footer>
-
     <script>
-      const yearNode = document.getElementById("year");
-      if (yearNode) {
-        yearNode.textContent = String(new Date().getFullYear());
-      }
+      window.location.replace("../");
     </script>
-  </body>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=../" />
+    </noscript>
+  </head>
+  <body></body>
 </html>

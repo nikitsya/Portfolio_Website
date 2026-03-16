@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="set local master to track origin/master" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="make 404 handler silently redirect all unknown routes to home" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +71,7 @@
       <workItem from="1771876656678" duration="815000" />
       <workItem from="1771877475294" duration="2644000" />
       <workItem from="1771951700211" duration="2865000" />
-      <workItem from="1773694915227" duration="1863000" />
+      <workItem from="1773694915227" duration="2256000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -161,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773696902810</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="switch site navigation to clean URLs without .html extensions">
+      <option name="closed" value="true" />
+      <created>1773697157580</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1773697157580</updated>
+    </task>
+    <task id="LOCAL-00013" summary="make 404 handler silently redirect all unknown routes to home">
+      <option name="closed" value="true" />
+      <created>1773697259525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773697259525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +206,8 @@
     <MESSAGE value="rebuild portfolio as a minimal multi-page skeleton" />
     <MESSAGE value="change logo size" />
     <MESSAGE value="set local master to track origin/master" />
-    <option name="LAST_COMMIT_MESSAGE" value="set local master to track origin/master" />
+    <MESSAGE value="switch site navigation to clean URLs without .html extensions" />
+    <MESSAGE value="make 404 handler silently redirect all unknown routes to home" />
+    <option name="LAST_COMMIT_MESSAGE" value="make 404 handler silently redirect all unknown routes to home" />
   </component>
 </project>
