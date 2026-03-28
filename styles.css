@@ -125,10 +125,18 @@ li {
     margin-top: 1.5rem;
 }
 
-.project-entry + .project-entry {
-    margin-top: 1.8rem;
-    padding-top: 1.1rem;
+.project-entry {
+    padding-top: 0.55rem;
     border-top: 1px solid #cfcfcf;
+}
+
+.project-entry:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+
+.project-entry + .project-entry {
+    margin-top: 1.4rem;
 }
 
 .project-entry p {
