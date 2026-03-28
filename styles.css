@@ -121,6 +121,20 @@ li {
     margin-top: 0.22rem;
 }
 
+.projects-list {
+    margin-top: 1.5rem;
+}
+
+.project-entry + .project-entry {
+    margin-top: 1.8rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid #cfcfcf;
+}
+
+.project-entry p {
+    margin: 0.35rem 0;
+}
+
 ul {
     margin: 0.6rem 0 0;
     padding-left: 1.2rem;
