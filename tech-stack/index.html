@@ -3,14 +3,6 @@
 <head>
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <script>
-        (function () {
-            const {pathname, search, hash} = window.location;
-            if (pathname.length > 1 && pathname.endsWith("/")) {
-                window.history.replaceState(null, "", pathname.replace(/\/+$/, "") + search + hash);
-            }
-        })();
-    </script>
     <title>Nikita Smiichyk - Tech Stack</title>
     <meta content="Tech Stack page with stack categories for Nikita Smiichyk." name="description"/>
     <link href="../favicon.svg" rel="icon" type="image/svg+xml"/>

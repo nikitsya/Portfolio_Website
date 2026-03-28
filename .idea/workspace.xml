@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="reformat code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update homepage hero copy and de-emphasize education">
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech-stack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tech-stack/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <workItem from="1771951700211" duration="2865000" />
       <workItem from="1773694915227" duration="5101000" />
       <workItem from="1773700658522" duration="230000" />
-      <workItem from="1774731530631" duration="317000" />
+      <workItem from="1774731530631" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -263,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773700883694</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update homepage hero copy and de-emphasize education">
+      <option name="closed" value="true" />
+      <created>1774731854731</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1774731854731</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +313,7 @@
     <MESSAGE value="set correct Tech Stack heading and remove duplicate title block" />
     <MESSAGE value="add GitHub projects link and CI/CD note to Projects page" />
     <MESSAGE value="reformat code" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformat code" />
+    <MESSAGE value="Update homepage hero copy and de-emphasize education" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update homepage hero copy and de-emphasize education" />
   </component>
 </project>
