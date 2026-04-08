@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add project entries to the projects page" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +81,7 @@
       <workItem from="1771951700211" duration="2865000" />
       <workItem from="1773694915227" duration="5101000" />
       <workItem from="1773700658522" duration="230000" />
-      <workItem from="1774731530631" duration="7253000" />
+      <workItem from="1774731530631" duration="7710000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -312,7 +315,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774740797941</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Match project separators to the tech stack layout">
+      <option name="closed" value="true" />
+      <created>1774740971334</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1774740971334</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Reformat code">
+      <option name="closed" value="true" />
+      <created>1774741111243</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1774741111243</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,8 +349,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="p.m., improve table readability, and align daily slots to 9 hourly columns" />
-    <MESSAGE value="new style" />
     <MESSAGE value="Add client-side password gate for site access across all pages" />
     <MESSAGE value="Add 404 redirect to home page for invalid URLs" />
     <MESSAGE value="Add site favicon and apple touch icon from logo image" />
@@ -355,6 +372,8 @@
     <MESSAGE value="Switch tech stack wording to British English" />
     <MESSAGE value="Add CV view and download links to home and contact pages" />
     <MESSAGE value="Add project entries to the projects page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project entries to the projects page" />
+    <MESSAGE value="Match project separators to the tech stack layout" />
+    <MESSAGE value="Reformat code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat code" />
   </component>
 </project>
