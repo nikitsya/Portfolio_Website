@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Remove Supermarket Management System project from portfolio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,7 @@
       <workItem from="1773694915227" duration="5101000" />
       <workItem from="1773700658522" duration="230000" />
       <workItem from="1774731530631" duration="7710000" />
-      <workItem from="1775685774225" duration="940000" />
+      <workItem from="1775685774225" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -339,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775685968611</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Update cv">
+      <option name="closed" value="true" />
+      <created>1775690995500</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1775690995500</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add 404 redirect to home page for invalid URLs" />
     <MESSAGE value="Add site favicon and apple touch icon from logo image" />
     <MESSAGE value="rebuild portfolio as a minimal multi-page skeleton" />
     <MESSAGE value="change logo size" />
@@ -382,6 +387,7 @@
     <MESSAGE value="Match project separators to the tech stack layout" />
     <MESSAGE value="Reformat code" />
     <MESSAGE value="Remove Supermarket Management System project from portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Supermarket Management System project from portfolio" />
+    <MESSAGE value="Update cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update cv" />
   </component>
 </project>
