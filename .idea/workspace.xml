@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update CV">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add standalone book page with PDF and EPUB formats" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +93,7 @@
       <workItem from="1775685774225" duration="1310000" />
       <workItem from="1776371916937" duration="157000" />
       <workItem from="1778429675976" duration="31000" />
-      <workItem from="1778703463775" duration="657000" />
+      <workItem from="1778703463775" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -385,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778429684583</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add standalone book page with PDF and EPUB formats">
+      <option name="closed" value="true" />
+      <created>1778704145822</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1778704145822</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change logo size" />
     <MESSAGE value="set local master to track origin/master" />
     <MESSAGE value="switch site navigation to clean URLs without .html extensions" />
     <MESSAGE value="make 404 handler silently redirect all unknown routes to home" />
@@ -428,6 +433,7 @@
     <MESSAGE value="Update cv" />
     <MESSAGE value="Add screenshots section to README" />
     <MESSAGE value="Update CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update CV" />
+    <MESSAGE value="Add standalone book page with PDF and EPUB formats" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add standalone book page with PDF and EPUB formats" />
   </component>
 </project>
