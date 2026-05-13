@@ -10,14 +10,16 @@
     <meta content="Дом без дверей - рукопись о семье, где нельзя было быть собой." name="description"/>
     <style>
         :root {
-            --paper: #f6f1df;
-            --paper-deep: #ece0c2;
+            --paper: #eee4cf;
+            --paper-soft: #f7efd9;
+            --paper-deep: #d8c9ad;
+            --paper-shadow: #b9ad96;
             --ink: #241b1a;
-            --muted: #6d625b;
+            --muted: #75695f;
             --wine: #743348;
             --wine-dark: #4b1f2d;
-            --line: rgba(36, 27, 26, 0.18);
-            --shadow: rgba(40, 25, 16, 0.22);
+            --line: rgba(75, 31, 45, 0.22);
+            --shadow: rgba(47, 31, 24, 0.3);
         }
 
         * {
@@ -32,9 +34,7 @@
             margin: 0;
             min-height: 100vh;
             color: var(--ink);
-            background:
-                radial-gradient(circle at 15% 8%, rgba(116, 51, 72, 0.12), transparent 24rem),
-                linear-gradient(135deg, var(--paper) 0%, #fbf8eb 48%, var(--paper-deep) 100%);
+            background: var(--paper);
             font-family: Georgia, "Times New Roman", serif;
             line-height: 1.55;
             letter-spacing: 0;
@@ -46,10 +46,10 @@
             z-index: -1;
             pointer-events: none;
             content: "";
-            opacity: 0.34;
+            opacity: 0.42;
             background-image:
-                linear-gradient(rgba(36, 27, 26, 0.035) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(36, 27, 26, 0.025) 1px, transparent 1px);
+                linear-gradient(rgba(75, 31, 45, 0.075) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(75, 31, 45, 0.065) 1px, transparent 1px);
             background-size: 38px 38px;
         }
 
@@ -171,7 +171,10 @@
             width: min(100%, clamp(18rem, 28vw, 24.5rem));
             aspect-ratio: 420 / 595;
             border-radius: 2px 12px 12px 2px;
-            box-shadow: 0 2.2rem 4.5rem var(--shadow), -10px 0 0 rgba(75, 31, 45, 0.9);
+            border: none;
+            box-shadow:
+                0 1.15rem 2.1rem rgba(47, 31, 24, 0.18),
+                -8px 0 0 rgba(75, 31, 45, 0.86);
             object-fit: cover;
             transform: rotateY(-7deg) rotateZ(0.5deg);
             transition: transform 360ms ease, box-shadow 360ms ease;
@@ -179,7 +182,9 @@
 
         .cover:hover {
             transform: rotateY(-2deg) rotateZ(0deg) translateY(-0.4rem);
-            box-shadow: 0 2.8rem 5.6rem rgba(40, 25, 16, 0.28), -10px 0 0 rgba(75, 31, 45, 0.95);
+            box-shadow:
+                0 1.35rem 2.4rem rgba(47, 31, 24, 0.21),
+                -8px 0 0 rgba(75, 31, 45, 0.92);
         }
 
         main {
@@ -259,8 +264,8 @@
         .reader-shell {
             margin-top: 2.4rem;
             border: 1px solid var(--line);
-            background: rgba(255, 252, 242, 0.52);
-            box-shadow: 0 1.5rem 3rem rgba(40, 25, 16, 0.12);
+            background: rgba(255, 252, 242, 0.62);
+            box-shadow: 0 1.5rem 3rem rgba(47, 31, 24, 0.16);
         }
 
         .reader-frame {
