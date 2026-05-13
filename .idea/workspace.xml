@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Update book files" />
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add icons to the book page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey-cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/book/dom-bez-dverey-cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey.epub" beforeDir="false" afterPath="$PROJECT_DIR$/book/dom-bez-dverey.epub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/book/dom-bez-dverey.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="24" />
+    <option name="cachedIndexableFilesCount" value="23" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -96,6 +102,9 @@
       <workItem from="1778429675976" duration="31000" />
       <workItem from="1778703463775" duration="752000" />
       <workItem from="1778706395143" duration="158000" />
+      <workItem from="1778706681499" duration="87000" />
+      <workItem from="1778706827638" duration="43000" />
+      <workItem from="1778707980714" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -401,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778706546479</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add icons to the book page">
+      <option name="closed" value="true" />
+      <created>1778706757937</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1778706757937</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch site navigation to clean URLs without .html extensions" />
     <MESSAGE value="make 404 handler silently redirect all unknown routes to home" />
     <MESSAGE value="make About navigation point to home and redirect /about/ to root" />
     <MESSAGE value="use non-trailing-slash internal URLs and normalize displayed route paths" />
@@ -444,6 +460,7 @@
     <MESSAGE value="Update CV" />
     <MESSAGE value="Add standalone book page with PDF and EPUB formats" />
     <MESSAGE value="Update book files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update book files" />
+    <MESSAGE value="Add icons to the book page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add icons to the book page" />
   </component>
 </project>
