@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add books catalogue and Prirodnaya Sekta page">
-      <change afterPath="$PROJECT_DIR$/book/assets/img/dom-bez-dverey-cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/assets/img/prirodnaya-sekta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/assets/pdf/dom-bez-dverey.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/assets/pdf/prirodnaya-sekta.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey-epub-cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey.epub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/dom-bez-dverey.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="490356e8-a46e-42a6-9156-5466db9fdce3" name="Changes" comment="Add books catalogue and Prirodnaya Sekta page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +105,7 @@
       <workItem from="1778711640693" duration="509000" />
       <workItem from="1778799937506" duration="15000" />
       <workItem from="1778799955256" duration="3276000" />
-      <workItem from="1778804211920" duration="749000" />
+      <workItem from="1778804211920" duration="872000" />
     </task>
     <task id="LOCAL-00001" summary="Add pastel-styled timetable section with header navigation and responsive weekly table">
       <option name="closed" value="true" />
@@ -447,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778712145451</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add books catalogue and Prirodnaya Sekta page">
+      <option name="closed" value="true" />
+      <created>1778805068701</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1778805068701</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="use non-trailing-slash internal URLs and normalize displayed route paths" />
     <MESSAGE value="update About section with personal bio and backend-focused summary" />
     <MESSAGE value="update About section with provided education and backend-focused profile text" />
     <MESSAGE value="remove Backend Focus page and all related navigation links" />
@@ -490,6 +485,7 @@
     <MESSAGE value="Add icons to the book page" />
     <MESSAGE value="Update book and page" />
     <MESSAGE value="Change background" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change background" />
+    <MESSAGE value="Add books catalogue and Prirodnaya Sekta page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add books catalogue and Prirodnaya Sekta page" />
   </component>
 </project>
